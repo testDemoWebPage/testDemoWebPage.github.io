@@ -31,7 +31,7 @@ body {
   color: rgb(58, 88, 125);
   font-size: 100px;
   text-shadow: 0 0 50px rgb(210, 209, 209),0 0 150px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
-  animation: maptype 0.5s ease-in-out infinite alternate;
+  -webkit-animation: maptype 0.5s ease-in-out infinite alternate;
 }
 
 .p2 {
@@ -40,7 +40,7 @@ body {
   color: rgb(58, 88, 125);
   font-size: 90px;
   text-shadow: 0 0 50px rgb(210, 209, 209),0 0 150px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
-  animation: maptype 0.5s ease-in-out infinite alternate;
+  -webkit-animation: maptype 0.5s ease-in-out infinite alternate;
 }
 
 .run_pic {
@@ -67,7 +67,7 @@ body {
   color: rgb(58, 88, 125);
   font-size: 100px;
   text-shadow: 0 0 50px rgb(210, 209, 209),0 0 150px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
-  animation: maptype 0.5s ease-in-out infinite alternate;
+  -webkit-animation: maptype 0.5s ease-in-out infinite alternate;
 }
 
 @keyframes maptype {
