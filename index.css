@@ -51,8 +51,11 @@ body {
 
 
 @keyframes logotype {
-  to {
-    color: transparent;
+  50%{
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
