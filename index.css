@@ -30,7 +30,7 @@ body {
   color: white;
   font-size: 100px;
   font-weight: bold;
-  animation:  0.5s logotype infinite;
+  animation:  1s logotype infinite;
 }
 
 .run_pic {
