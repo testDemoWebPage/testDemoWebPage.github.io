@@ -3,9 +3,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #f4f4f4;
+  background-color: #90acc4f4;
+  text-align: center;
 }
 
 .top {
@@ -18,7 +17,7 @@ body {
 
 .logo {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
   padding: 30px;
 }
 
@@ -27,21 +26,11 @@ body {
 }
 
 .p1 {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
-  color: rgb(255, 153, 0);
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+  color: white;
   font-size: 100px;
-  text-shadow: 0 0 50px rgb(210, 209, 209),0 0 70px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
-  animation: maptype 0.5s ease-in-out infinite alternate;
-}
-
-.p2 {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
-  color: rgb(255, 153, 0);
-  font-size: 90px;
-  text-shadow: 0 0 50px rgb(210, 209, 209),0 0 70px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
-  animation: maptype 0.5s ease-in-out infinite alternate;
+  font-weight: bold;
+  animation:  0.5s logotype infinite;
 }
 
 .run_pic {
@@ -60,28 +49,31 @@ body {
   height: 240px;
 }
 
-.map {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
-  color: rgb(58, 88, 125);
-  font-size: 100px;
-  text-shadow: 0 0 50px rgb(210, 209, 209),0 0 150px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
-  animation: maptype 0.5s ease-in-out infinite alternate;
+
+@keyframes logotype {
+  to {
+    color: transparent;
+  }
 }
 
-@keyframes maptype {
-  0%,
-  50% {
-    text-shadow: 0 0 50px rgb(190, 190, 190), 0 0 150px rgb(255, 162, 0), 0 0 50px rgb(217, 255, 0);
+@media (max-width:600px) {
+  .map{
+      font-size: 50px;
   }
-  100% {
-    text-shadow: 0 0 20px rgb(76, 254, 156), 0 0 100px rgb(167, 178, 255), 0 0 20px rgb(255, 157, 255);
-  }  
+
+  .p1 {
+    font-size: 50px;
+  }
+  
+  .p2 {
+    font-size: 40px;
+  }
 }
 
 @media (max-width:400px) {
+
   .map{
-      font-size: 50px;
+      font-size: 70px;
   }
 
   .p1 {
