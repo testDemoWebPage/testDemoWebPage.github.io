@@ -17,35 +17,32 @@ body {
 }
 
 .logo {
-  max-width: 100%;
   text-align: center;
   margin-top: 60px;
+  padding: 30px;
 }
 
 .logo1 {
   max-width: 100%;
+  margin : 20px;
 }
 
 .p1 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
-  color: rgb(58, 88, 125);
+  color: rgb(255, 153, 0);
   font-size: 100px;
-  text-shadow: 0 0 50px rgb(210, 209, 209),0 0 150px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
-  -webkit-animation: maptype 0.5s ease-in-out infinite alternate;
-  -moz-animation: maptype 0.5s ease-in-out infinite alternate;
-  -o-animation: maptype 0.5s ease-in-out infinite alternate;
+  text-shadow: 0 0 50px rgb(210, 209, 209),0 0 70px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
+  animation: maptype 0.5s ease-in-out infinite alternate;
 }
 
 .p2 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
-  color: rgb(58, 88, 125);
+  color: rgb(255, 153, 0);
   font-size: 90px;
-  text-shadow: 0 0 50px rgb(210, 209, 209),0 0 150px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
-  -webkit-animation: maptype 0.5s ease-in-out infinite alternate;
-  -moz-animation: maptype 0.5s ease-in-out infinite alternate;
-  -o-animation: maptype 0.5s ease-in-out infinite alternate;
+  text-shadow: 0 0 50px rgb(210, 209, 209),0 0 70px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
+  animation: maptype 0.5s ease-in-out infinite alternate;
 }
 
 .run_pic {
@@ -55,7 +52,6 @@ body {
 }
 
 .phone_pic {
-
   width: 320px;
   height: 320px;
 }
@@ -66,18 +62,15 @@ body {
 }
 
 .map {
- 
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
   color: rgb(58, 88, 125);
   font-size: 100px;
   text-shadow: 0 0 50px rgb(210, 209, 209),0 0 150px rgb(97, 97, 97),0 0 20px rgb(20, 20, 20);
-  -webkit-animation: maptype 0.5s ease-in-out infinite alternate;
-  -moz-animation: maptype 0.5s ease-in-out infinite alternate;
-  -o-animation: maptype 0.5s ease-in-out infinite alternate;
+  animation: maptype 0.5s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes maptype {
+@keyframes maptype {
   0%,
   50% {
     text-shadow: 0 0 50px rgb(190, 190, 190), 0 0 150px rgb(255, 162, 0), 0 0 50px rgb(217, 255, 0);
@@ -99,5 +92,4 @@ body {
   .p2 {
     font-size: 40px;
   }
-  
 }
