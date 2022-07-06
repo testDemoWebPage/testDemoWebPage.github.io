@@ -4,15 +4,24 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Microsoft JhengHei;
   text-align: center;
   overflow-x: hidden;
 }
 
-.top {
-   text-align: center;
+.btn {
+  border: none;
+  padding: 10px;
+  font-size: 80px;
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+  background-image:url(pic.jpg);
+  width: 300px;
+  height: 175px;
+}
+
+.tip {
+  font-size: 20px;
+  color: #aaaaa9;
 }
 
 .content {
@@ -21,43 +30,32 @@ body {
 
 .logo {
   text-align: center;
-  margin-top: 40px;
-  padding: 30px;
 }
 
 .logo1 {
-  max-width: 100%;
+  width: 250px;
+  margin-top: 10px;
 }
 
 .p1 {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
-  color: white;
-  font-weight: bold;
-  /*animation:  1s logotype infinite;*/
   font-size: 50px;
-  background-color: #e9b403;
-  border-radius: 10px;
-  margin: 50px;
-  padding: 20px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
+  color: cadetblue;
 }
 
-.run_pic {
-  left:0;
-  width: 320px;
-  height: 240px;
+.p1_1 {
+  font-size: 40px;
+  font-weight: bolder;
+  color: cadetblue;
 }
 
-.phone_pic {
-  width: 480px;
-  height: 240px;
+.p2 {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+  color: rgb(255, 81, 81);
+  font-weight: bold;
+  animation:  1s logotype infinite;
+  font-size: 50px;
 }
-
-.map_pic {
-  width: 320px;
-  height: 240px;
-}
-
 
 @keyframes logotype {
   50%{
@@ -69,30 +67,30 @@ body {
 }
 
 @media (max-width:600px) {
-  .map{
-      font-size: 50px;
-  }
-
   .p1 {
-    font-size: 50px;
-  }
-  
-  .p2 {
     font-size: 40px;
-  }
-}
-
-@media (max-width:400px) {
-
-  .map{
-      font-size: 70px;
-  }
-
-  .p1 {
-    font-size: 50px;
+    font-weight: bolder;
+    color: cadetblue;
   }
   
+  .p1_1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: cadetblue;
+  }
+
+  .btn {
+   
+    padding: 10px;
+    font-size: 60px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+
   .p2 {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+    color: rgb(255, 81, 81);
+    font-weight: bold;
+    animation:  1s logotype infinite;
     font-size: 40px;
   }
 }
